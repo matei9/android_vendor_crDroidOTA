@@ -5,7 +5,7 @@
 			"oem": "Samsung",
 			"device": "Samsung A52 4G",
 			"filename": "crDroidAndroid-14.0-20240523-a52q-v10.5.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/a52q/10.x/crDroidAndroid-14.0-20240523-a52q-v10.5.zip/download",
+			"download": "https://github.com/matei9/android_vendor_crDroidOTA/releases/download/14.0/crDroidAndroid-14.0-20240523-a52q-v10.5.zip",
 			"timestamp": 1716486693,
 			"md5": "9a9eb297ae9b9f885966bfe5c9b75fa4",
 			"sha256": "06e28c658e38ac50df2beb42b7a66e3696b3a1c2cde021ad581bee9da317ecf1",
