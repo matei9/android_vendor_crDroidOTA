@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "TestaMic",
+			"oem": "Samsung",
+			"device": "Samsung A52 4G",
+			"filename": "crDroidAndroid-14.0-20240523-a52q-v10.5.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/a52q/10.x/crDroidAndroid-14.0-20240523-a52q-v10.5.zip/download",
+			"timestamp": 1716478661,
+			"md5": "73ca7da6ea24c935d7b0b903a52bb233",
+			"sha256": "d588dd64a4b6d719dad182d9a75fb6819a35c7d670c473606483a72a080fc440",
+			"size": 1500007881,
+			"version": "10.5",
+			"buildtype": "Monthly",
+			"forum": "https://xdaforums.com/t/crdroid-10-5-android-14-qpr2-for-a52-4g-a52q-unofficial.4672356/",
+			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-U/20-Apr-2024/NikGapps-basic-arm64-14-20240420-signed.zip/download",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://www.paypal.com/paypalme/FilipCojocaru",
+			"telegram": "https://t.me/SamsunGalaxyA52",
+			"dt": "https://github.com/LineageOS/android_device_samsung_a52q",
+			"common-dt": "https://github.com/LineageOS/android_device_samsung_sm7125-common",
+			"kernel": "https://github.com/LineageOS/android_kernel_samsung_sm7125"
+		}
+	]
+}

@@ -1,0 +1,133 @@
+====================
+     05-23-2024
+====================
+
+====================
+     05-22-2024
+====================
+
+====================
+     05-21-2024
+====================
+
+====================
+     05-20-2024
+====================
+
+====================
+     05-19-2024
+====================
+
+====================
+     05-18-2024
+====================
+
+====================
+     05-17-2024
+====================
+
+   * frameworks/base
+7221161ff0a8 AppWidgetServiceImpl:fix NPE in pruneWidgetStateLocked mthod .
+
+   * packages/apps/Aperture
+aa3066a Aperture: Use CameraX APIs for logical cameras
+fa8308c Aperture: Update AGP to 8.4.0
+957e17a Aperture: Update Gradle to 8.7
+8402f38 Aperture: Update CameraX to 1.4.0-beta01
+
+   * vendor/addons
+04f21583 addons: Update HarmonyOS Sans Font
+
+====================
+     05-16-2024
+====================
+
+   * frameworks/base
+04be348cbd4b Fix potential NPE when dumping child nodes
+0c429433f89e Pinned apk file should be put in mPinnedFiles.
+d948a86f0126 PixelPropsUtils: Update Spoof fingerprint (#1099)
+
+   * frameworks/native
+7574f91b05 Revert "Fix ping pong progress in the Kawase implementation."
+
+   * packages/modules/Bluetooth
+baa62a2f6d SystemServer: Unbind to remove connection leak
+893c646c71 Fix BT noise issue during startup
+
+   * packages/services/Telecomm
+b1ff886cd Telecom:fix NPE problem in the CallSManager java file.
+
+====================
+     05-15-2024
+====================
+
+   * packages/apps/Aperture
+73a279f Automatic translation import
+
+   * packages/apps/AudioFX
+52c1fdc Automatic translation import
+
+   * packages/apps/Car/Settings
+0340eed8c Automatic translation import
+
+   * packages/apps/DeskClock
+0881895d5 Automatic translation import
+
+   * packages/apps/DocumentsUI
+1f330389d Automatic translation import
+
+   * packages/apps/Eleven
+3800f7d0 Automatic translation import
+
+   * packages/apps/Etar
+60b891b2 Automatic translation import
+
+   * packages/apps/FlipFlap
+622a0be Automatic translation import
+
+   * packages/apps/Glimpse
+5cae00f Automatic translation import
+
+   * packages/apps/Jelly
+bd5e853 Automatic translation import
+
+   * packages/apps/Profiles
+e18f148 Automatic translation import
+
+   * packages/apps/Recorder
+a2d1b18 Automatic translation import
+
+   * packages/apps/TvSettings
+30360eda0 Automatic translation import
+
+   * packages/resources/devicesettings
+00f6892 Automatic translation import
+
+   * vendor/crowdin
+41e4418 Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+3bba645 Automatic translation import
+
+====================
+     05-14-2024
+====================
+
+   * android
+45c147e manifest: Track libfuse
+
+   * bionic
+81a529003 linker: fix runtime breakage with full LTO optimization
+
+   * build/soong
+6e60ff8df Enable full LTO optimization by default
+
+   * frameworks/av
+dc4806b8af Fix setting wrong final volume.
+
+   * frameworks/base
+62ab4826b491 Fix the DSU notification behavior
+4a0716d8332c Revert "Revert "Revert "Revert "Workaround build breakage from f..."
+5bc3b51d3325 SystemUI: Enable more flags
+69387cf76b3f base: Do not enforce camera shutter sound
+
