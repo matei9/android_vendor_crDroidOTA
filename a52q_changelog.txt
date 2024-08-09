@@ -1,4 +1,16 @@
 ====================
+     08-08-2024
+====================
+
+Synced with sources
+Fixed the bug where a mouse cursor would appear on boot.
+
+NOTE: If after updating, another update with the same date appears, ignore it, it's a bug by the updater.
+NOTE2: The signing keys were changed, you will need to flash the crdroid-migration.zip before the rom if dirty flashing.
+
+
+
+====================
      07-29-2024
 ====================
 
