@@ -1,9 +1,9 @@
 {
 	"response": [
 		{
-			"maintainer": "",
-			"oem": "",
-			"device": "",
+			"maintainer": "TestaMic",
+			"oem": "Samsung",
+			"device": "Samsung A72",
 			"filename": "crDroidAndroid-14.0-20240811-a72q-v10.6.zip",
 			"download": "https://sourceforge.net/projects/crdroid/files/a72q/10.x/crDroidAndroid-14.0-20240811-a72q-v10.6.zip/download",
 			"timestamp": 1723361660,
@@ -11,18 +11,18 @@
 			"sha256": "744d913f71375fd893b6d3d3cbd8f49b9da9196872e18b2cb34b9d03a289aea2",
 			"size": 1526060426,
 			"version": "10.6",
-			"buildtype": "",
+			"buildtype": "Monthly",
 			"forum": "",
-			"gapps": "",
+			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/Android-14/28-Jul-2024/NikGapps-omni-arm64-14-20240728-signed.zip/download",
 			"firmware": "",
 			"modem": "",
 			"bootloader": "",
 			"recovery": "",
-			"paypal": "",
-			"telegram": "",
-			"dt": "",
-			"common-dt": "",
-			"kernel": ""
+			"paypal": "https://www.paypal.com/paypalme/FilipCojocaru",
+			"telegram": "https://t.me/testamic2",
+			"dt": "https://github.com/LineageOS/android_device_samsung_a72q",
+			"common-dt": "https://github.com/LineageOS/android_device_samsung_sm7125-common",
+			"kernel": "https://github.com/LineageOS/android_kernel_samsung_sm7125"
 		}
 	]
 }
