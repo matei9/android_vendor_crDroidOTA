@@ -1,11 +1,11 @@
-{
+ {
 	"response": [
 		{
 			"maintainer": "TestaMic",
 			"oem": "Samsung",
 			"device": "Samsung A52 4G",
 			"filename": "crDroidAndroid-15.0-20241028-a52q-v11.0-ALPHA.zip",
-			"download": "https://github.com/matei9/android_vendor_crDroidOTA/releases/download/crdroid108/crDroidAndroid-14.0-20240913-a52q-v10.8.zip",
+			"download": "https://github.com/matei9/android_vendor_crDroidOTA/releases/download/crdroida15/crDroidAndroid-15.0-20241028-a52q-v11.0-ALPHA.zip",
 			"timestamp": 1730124665,
 			"md5": "3614a513bd3d88413d5c1c4f85a44c47",
 			"sha256": "b33b5b9b9aad33117c5a17bc8803d8ad2311b48026d56f206813612ae2c6c418",
