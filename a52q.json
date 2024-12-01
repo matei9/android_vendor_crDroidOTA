@@ -1,15 +1,15 @@
- {
+{
 	"response": [
 		{
 			"maintainer": "TestaMic",
 			"oem": "Samsung",
 			"device": "Samsung A52 4G",
-			"filename": "crDroidAndroid-15.0-20241106-a52q-v11.0-BETA.zip",
-			"download": "https://github.com/matei9/android_vendor_crDroidOTA/releases/download/crdroid15beta/crDroidAndroid-15.0-20241106-a52q-v11.0-BETA.zip",
-			"timestamp": 1730917687,
-			"md5": "f5cf2e64b9195de65c6a08023bcb97d5",
-			"sha256": "5e3a6b07ea5dd6bd06272384c9effcdcf2b2e183b36ba0ab997c085b22da7a04",
-			"size": 1529443783,
+			"filename": "crDroidAndroid-15.0-20241129-a52q-v11.0-BETA.zip",
+			"download": "https://github.com/matei9/android_vendor_crDroidOTA/releases/download/crdroid11betaup/crDroidAndroid-15.0-20241129-a52q-v11.0-BETA.zip",
+			"timestamp": 1732870870,
+			"md5": "0c29c316f86d052eaaa6c8543844419b",
+			"sha256": "1513e946df0d5d9fd972dd4ecc95e010819cf9aa2b27061328318b5ca8c46393",
+			"size": 1569140630,
 			"version": "11.0",
 			"buildtype": "Monthly",
 			"forum": "https://xdaforums.com/t/crdroid-10-5-android-14-qpr2-for-a52-4g-a52q-unofficial.4672356/",
