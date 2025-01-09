@@ -1,0 +1,274 @@
+====================
+     01-09-2025
+====================
+
+   * device/google/atv
+2d96697 products: Make generic x86_64 TV target inherit 64bit_only
+
+   * device/samsung/a52q
+7029368 Update device.mk - crDroid stuff
+
+   * device/samsung/a72q
+3f03dc5 Update device.mk - crDroid stuff
+
+   * frameworks/av
+15a2315 Nuplayer: Handle get input/output format errors cleanly
+
+   * frameworks/base
+f1e5d525a SystemUI: Fix smartspace layout
+
+   * hardware/interfaces
+fabb55f ExternalCameraDevice: increase max bytes per pixel
+
+   * hardware/qcom-caf/sm8150/display
+6c635c0 display: Bring back gralloc.qcom
+
+   * system/core
+21e8e7d Fixed failure of clearing loopback device
+
+====================
+     01-08-2025
+====================
+
+   * frameworks/native
+2995ef8 Still send motion events to window which already be touched
+
+   * hardware/qcom-caf/common
+1b1901b common: Introduce QtiTelephonyCompat
+
+   * lineage-sdk
+b9982a3 ChargingControl: Prevent crash against very frequent power toggle
+
+   * packages/apps/Aperture
+5b5de03 lens_launcher: Don't optimize
+
+   * packages/apps/Jelly
+01168fd Jelly: Properly name onCreate argument
+
+   * packages/apps/Messaging
+374d645 Messaging: Replace AOSP illustrations
+
+   * packages/apps/Twelve
+aa56dde Twelve: Migrate generatebp to plugin declaration
+
+   * packages/modules/Wifi
+e3d2411 wifi: Fix cases where the Nan iface is not removed resulting in HAL not stopping
+
+   * tools/extract-utils
+3e25146 extract_utils: allow reading tar in any format
+
+   * vendor/lineage
+5016f98 crdroid: Adding an option to build DeviceAsWebcam
+
+====================
+     01-07-2025
+====================
+
+   * android
+b639ab7 Merge 'lineage-22.1' into 15.0
+
+   * device/samsung/sm7125-common
+2e7b62a sm7125-common: Update display flags & packages
+
+   * hardware/lineage/compat
+e13c629 compat: expose android.hardware.sensors@1.0-convert as shared lib
+
+   * hardware/samsung
+833a0b6 hidl: camera: Add libbase to provider 2.4 deps
+
+   * packages/apps/Launcher3
+5c4e803 New Crowdin updates (#470)
+
+   * packages/apps/Settings
+7a3e017 Settings: gestures: Enable Cycle through ringer modes for all
+
+   * packages/apps/crDroidSettings
+0516736 New Crowdin updates (#1210)
+
+====================
+     01-06-2025
+====================
+
+   * hardware/qcom/sdm845/display
+ec1f12c display: Remove libmemtrack library
+
+   * hardware/qcom/sdm845/gps
+84f4869 Include Android.mk when building B4S4
+
+   * hardware/qcom/sm7250/display
+5eb7ffa display: Remove libmemtrack library
+
+   * hardware/qcom/sm7250/gps
+51da88d gps: Convert remaining Android.mk to bp
+
+   * hardware/qcom/sm8150/display
+c989343 display: Remove libmemtrack library
+
+   * hardware/qcom/sm8150/gps
+035adb9 Include Android.mk when building S5
+
+====================
+     01-05-2025
+====================
+
+   * hardware/qcom-caf/msm8998/audio
+4bf5f59 audio: Remove disabled HW accelerated effects
+
+   * hardware/qcom-caf/sdm845/audio
+a2f05ff audio: Remove disabled HW accelerated effects
+
+   * hardware/qcom-caf/sm8150/audio
+fdc8d17 audio: Remove disabled HW accelerated effects
+
+   * hardware/qcom-caf/sm8250/audio
+5e67645 audio: Remove disabled HW accelerated effects
+
+   * hardware/qcom-caf/sm8350/audio
+f52ceb1 audio: Remove disabled HW accelerated effects
+
+   * hardware/qcom-caf/sm8350/display
+1b7edb3 Revert "display: Add QMCS image generation"
+
+   * hardware/qcom-caf/sm8450/audio/pal
+f3af214 Reapply "pal: validate stream handle in pal server wrapper"
+
+   * hardware/qcom-caf/sm8450/display
+2272048 Revert "display: Add QMCS image generation"
+
+   * packages/services/Telephony
+2eb5314 RadioInfo: Handle system insets
+
+====================
+     01-04-2025
+====================
+
+   * hardware/qcom-caf/msm8998/display
+c1592e4 display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+
+   * vendor/addons
+29fa7ce addons: adjust A11 style QS tiles padding
+
+====================
+     01-03-2025
+====================
+
+   * packages/apps/Glimpse
+b487397 Glimpse: Center crop thumbnails
+
+====================
+     01-02-2025
+====================
+
+   * device/generic/goldfish
+61bfda5 goldfish: Enable DPad on TV
+
+   * hardware/qcom-caf/sdm845/display
+cbde3d4 display: Remove deprecated lights.$(TARGET_BOARD_PLATFORM)
+
+   * hardware/qcom-caf/sm8250/display
+d17dc82 Revert "composer: add support for display bandwidth limits management"
+
+   * packages/apps/Camelot
+5d6aff2 Automatic translation import
+
+   * packages/apps/DeskClock
+a2df299 Automatic translation import
+
+   * packages/apps/Etar
+63f4cd6 Automatic translation import
+
+   * packages/apps/FlipFlap
+7c64363 Automatic translation import
+
+   * packages/apps/Recorder
+bc7d609 Recorder: Bump gradle-generatebp to 1.17
+
+   * packages/providers/DownloadProvider
+8f732ed Automatic translation import
+
+   * vendor/crowdin
+0f2cb1c Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+b9a26c3 Automatic translation import
+
+   * vendor/samsung/a52q
+4e9ea42 a52q: update blobs from A525FXXUAFXL2
+
+   * vendor/samsung/a72q
+0330774 a72q: regenerate and setup ELF checks
+
+====================
+     01-01-2025
+====================
+
+   * external/arm-optimized-routines
+f32adf7 Merge tag 'android-15.0.0_r6' into 15.0
+
+   * external/jemalloc_new
+1d8ae7c Use gtestifier to convert jemalloc standalone tests into gtests
+
+   * external/sqlite
+1a964dc Fix parameter checking logic error in tokenize
+
+   * packages/apps/Backgrounds
+d9301e3 Backgrounds: Import wallpapers for crdroid
+
+   * packages/apps/Dialer
+cb7f14a New translations (#138)
+
+   * packages/apps/DocumentsUI
+f4f11cf DocumentsUI: config: show search bar and disable all caps
+
+   * packages/apps/ThemePicker
+d89ca1a Import CustomColorStub from Husky QPR1
+
+   * packages/apps/Updater
+f5969b7 New translations (#84)
+
+   * packages/apps/WallpaperPicker2
+e150588 WallpaperPicker2: Remove the use of smaller images for thumbnails
+
+   * packages/inputmethods/LatinIME
+b8d42ac Fix crash: NPE in SuggestionStripView in LatinIME
+
+   * packages/modules/Bluetooth
+785117b BondStateMachine: Fix NPE on some devices
+
+   * packages/services/DeviceAsWebcam
+a2a6459 Allow setting HQ mode as default
+
+   * packages/services/Telecomm
+3d4c0cf Add back increasing ring feature (1/2).
+
+   * system/memory/lmkd
+af2d26e lmkd: Ensure node stats are being parsed
+
+   * vendor/samsung/sm7125-common
+76f182d sm7125-common: regenerate and setup ELF checks
+
+====================
+     12-31-2024
+====================
+
+   * art
+90a3586 Speed up `AppendPrettyDescriptor()`.
+
+   * bionic
+643ce00 Ensure prop has zero padding
+
+   * bootable/recovery
+9920eef recovery: Show crdroid display version in recovery
+
+   * frameworks/opt/telephony
+79cbbe6 Ignore null action in ImsResolver.
+
+   * kernel/samsung/sm7125
+6fd1e54e3 nl80211: add WPA3 definition for SAE authentication
+
+   * lineage/scripts
+8817e8f device-deps-regenerator: Sort ignorelist alphabetically
+
+   * toolchain/pgo-profiles
+c0f705d Add missing build rules for libz.afdo
+
