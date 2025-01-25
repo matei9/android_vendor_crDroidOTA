@@ -6,6 +6,12 @@ Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
 
+===== 24-01-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* Improved animations
+* Address some sepolicy denials
+
 ===== 19-01-2025 =====
 
 * Initial Android 15 QPR1 + January 2025 Security Update
