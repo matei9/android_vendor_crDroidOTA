@@ -3,13 +3,6 @@ Build type: Monthly
 Device: Redmi Note 12 4G/NFC (Topaz)
 Device maintainer: Haruki Takahashi (haruki達月)
 
-===== 01-19-2025 =====
-- QPR1 Android 15 Update
-- January Security Patch
-- Fixed some bugs from Source
-- Implement Call Recording Feature
-- Update Firmware to Topaz/Tapas OS2.0.8.0
-
 ===== 12-18-2024 =====
 - Update Latest Commits From Source
 - Added Sidebar Feature
