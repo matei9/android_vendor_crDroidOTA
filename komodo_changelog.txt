@@ -6,6 +6,16 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+25th January, 2025
+
+* Add toggle to always show compact headsup for notification (crdroid > notifications)
+* Make launcher app drawer background opaque and fix colors
+* Fix lens shortcut on searchbar of launcher
+* Fix crash while using sidebar in some instances
+* komodo: Add missing iwlan packages/blobs
+* komodo: Fix statusbar height after Jan 2025 update
+ 
+==================================
 20th January, 2025
 
 * Initial Android 15 QPR1 + January 2025 Security Update
