@@ -6,6 +6,19 @@ Device maintainer: Pranav Vashi (neobuddy89)
 Highlights & Device Specific Changes:
 
 ==================================
+26th January, 2025
+
+* Add toggle to always show compact headsup for notification (crdroid > notifications)
+* Make launcher app drawer background opaque and improve colors
+* Fix lens shortcut on searchbar of launcher
+* Fix crash while using sidebar in some instances
+* Fix icon shapes not visible in Wallpaper & Styles
+* Disabled AOSP frame rate limit for games
+* Various fixes and improvements
+* vayu: Updated built-in Dolby
+* vayu: Update KernelSu to v1.0.3-2-legacy
+ 
+==================================
 22nd January, 2025
 
 * Initial Android 15 QPR1 + January 2025 Security Update
