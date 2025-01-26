@@ -15,8 +15,8 @@ Highlights & Device Specific Changes:
 * Fix icon shapes not visible in Wallpaper & Styles
 * Disabled AOSP frame rate limit for games
 * Various fixes and improvements
-* vayu: Updated built-in Dolby
-* vayu: Update KernelSu to v1.0.3-2-legacy
+* sweet: Updated built-in Dolby
+* sweet: Update KernelSu to v1.0.3-2-legacy
  
 ==================================
 22nd January, 2025
