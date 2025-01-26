@@ -3,6 +3,37 @@ Build type: Weekly
 Device: Pocophone F1 (beryllium)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 26 January, 2025 =====
+
+- Updated KernelSU to v1.0.3-2-legacy
+- Added compact heads-up toggle
+- Added split shade QS
+- Added optional wind info & humidity on lockscreen
+- SystemUI: Add private DNS QS tile
+- SystemUI: Remove power menu shadow
+- Fixed iconshapes corner radius
+- Updated LatinIME keyboard
+- Dialer: Fix blinking hint text
+- Messaging: Replace AOSP illustrations
+- Telephony updates
+- Launcher3: Fix race condition when performing settings toggle restart
+- Launcher3: QsbContainerView: Allow configurable widgets
+- Launcher3: Hide app search results of profiles in quiet mode
+- Launcher3: Fix taskbar crash when disabled on fold devices
+- Launcher3: Fix upstream bug with dots enabled
+- Launcher3: Keep clear-all button from being disabled
+- Launcher3: Allow hiding top shadow on statusbar
+- Launcher3: Update lens intent in QSB
+- Launcher3: Improve persistent taskbar corner radius
+- Launcher3: Set app drawer opacity to 100
+- Restore system dynamic colors for QS theme
+- Fixed LMOFreeform crash in some cases
+- Fixed memory leak on wifi
+- Fixed the potential memory leak issue caused by setExtension
+- Disable default frame rate limit for games (introduced in A15)
+- Some other fixes here and there
+- Updated translations
+
 ===== 19 January, 2025 =====
 
 - Initial crDroid 11.1 release
