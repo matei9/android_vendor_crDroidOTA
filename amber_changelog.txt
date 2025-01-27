@@ -1,0 +1,22 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Xiaomi 11T (agate/amber)
+Device maintainer: Ziad
+
+===== 25/01/24 =====
+- crDroid 11.1 (V QPR1 and jan securtiy patches)
+- Updated kernel to 4.19.191-g3a4b4ce05016
+- New optimized ELF vendor tree
+- Dropped support of 32bit
+- Fixed memory pressure
+- Fixed CPU wakelocks sepolicy denials
+- Fixed L1 media decoding for Netflix
+- Improved ZRAM dynamic behavior
+- Unlocked maximum refresh rate in unsupported games
+- Enabled status bar burn in protection
+- Dropped smart pixel feature
+- Added display modes
+- Moved per app refresh rate to display and thermal profiles to battery
+
+Known issues:
+- WIFI WPA3 connections

@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+            "maintainer": "Ziad",
+            "oem": "Xiaomi",
+            "device": "Xiaomi 11T",
+            "filename": "crDroidAndroid-15.0-20250125-amber-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/amber/11.x/crDroidAndroid-15.0-20250125-amber-v11.1.zip/download",
+            "timestamp": 1737765555,
+            "md5": "abf9f2134859f452f02ad7bbdeee556b",
+            "sha256": "18fca2db289b10b2815cb3fd89d28e8277583ffeb0d100461c50a92202a3ce41",
+            "size": 1472683403,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-0-official-agate-amber-2025-01-25-crdroid-v11-1.4674430/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "https://xmfirmwareupdater.com/firmware/agate/stable/OS1.0.10.0.UKWMIXM/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/amber/11.x/boot.img/download",
+            "paypal": "https://www.paypal.com/paypalme/ziadtamer290",
+            "telegram": "https://t.me/ziad_tamer_a",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_amber",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_mt6893"
+    }
+  ]
+}
