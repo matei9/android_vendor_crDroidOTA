@@ -1,3 +1,21 @@
+===== 28-01-2025 =====
+* crDroid 11.1 (V QPR1 and jan securtiy patches)
+* Add toggle to always show compact headsup for notification (crdroid > notifications)
+* Make launcher app drawer background opaque and improve colors
+* Fix lens shortcut on searchbar of launcher
+* Fix crash while using sidebar in some instances
+* Fix icon shapes not visible in Wallpaper & Styles
+* Disabled AOSP frame rate limit for games
+* Various fixes and improvements
+* Switch to split shade QS for landscape mode
+* Added toggle to allow application downgrade (crdroid > misc)
+* Added more weather elements for custom weather on lockscreen (crdroid > lockscreen)
+* Switching between smartspace and custom weather requires SystemUI/System restart
+* Allow disabling private DNS for VPN (Settings > Network > DNS)
+* Added Circle to Search support - Requires Google Search (Launcher settings > misc)
+* Reworked QS theme color
+* Various fixes and improvements
+
 ===== 17-12-2024 =====
 
 * Initial crDroid v11  release

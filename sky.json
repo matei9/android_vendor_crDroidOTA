@@ -1,29 +1,28 @@
 {
-        "response": [
-                {
-                        "maintainer": "Mourya Baruah",
-                        "oem": "Redmi",
-                        "device": "Redmi 12 5G",
-                        "filename": "crDroidAndroid-15.0-20241217-sky-v11.0.zip",
-                        "download": "https://sourceforge.net/projects/crdroid/files/sky/11.x/crDroidAndroid-15.0-20241217-sky-v11.0.zip/download",
-                        "timestamp": 1734408828,
-                        "md5": "4316bd375fa2f6bce5ba78fff5517787",
-                        "sha256": "876da84d1cca4e2e6e1c2525814c6feb68377d023a0d31f6338b16d44bce6e1e",
-                        "size": 1239279981,
-                        "version": "11.0",
-                        "buildtype": "Monthly",
-                        "forum": "https://xdaforums.com/t/rom-15-redmi-12-5g-poco-m6-pro-5g-crdroid-v11.4702481",
-                        "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15",
-                        "firmware": "https://xmfirmwareupdater.com/firmware/sky/stable/OS2.0.3.0.VMWINXM/",
-                        "modem": "",
-                        "bootloader": "",
-                        "recovery": "https://sourceforge.net/projects/mourya-sky/files/recovery/OrangeFox-Unofficial-sky_22_10_2023.img/download",
-                        "paypal": "",
-                        "telegram": "https://t.me/mourya_sky_support",
-                        "dt": "https://github.com/crdroidandroid/android_device_xiaomi_sky",
-                        "common-dt": "",
-                        "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sky"
-                }
-        ]
+    "response": [
+        {
+            "maintainer": "Mourya Baruah",
+            "oem": "Redmi",
+            "device": "Redmi 12 5G",
+            "filename": "crDroidAndroid-15.0-20250128-sky-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/sky/11.x/crDroidAndroid-15.0-20250128-sky-v11.1.zip/download",
+            "timestamp": 1738052665,
+            "md5": "93a11ff9c43c8328802bbe36d5f7f914",
+            "sha256": "c1934f42532d868cef9fceb56185e20065a383b6e7628bf02cb5287fc78702ef",
+            "size": 1248414113,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-redmi-12-5g-poco-m6-pro-5g-crdroid-v11.4702481",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15",
+            "firmware": "https://xmfirmwareupdater.com/firmware/sky/stable/OS2.0.3.0.VMWINXM/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/mourya-sky/files/recovery/OrangeFox-Unofficial-sky_22_10_2023.img/download",
+            "paypal": "",
+            "telegram": "https://t.me/mourya_sky_support",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_sky",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sky"
+        }
+    ]
 }
-
