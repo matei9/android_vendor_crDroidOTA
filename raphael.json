@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Hildo Boerboom (firebird11)",
-			"oem": "Redmi",
-			"device": "Mi 9T Pro",
-			"filename": "crDroidAndroid-15.0-20241224-raphael-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/raphael/11.x/crDroidAndroid-15.0-20241224-raphael-v11.0.zip/download",
-			"timestamp": 1735029611,
-			"md5": "a7b9f115f950633174537fc727441d16",
-			"sha256": "153795d40c5a566ca4a72a124ac355212d732e2c99fed92fbe1ad2e19b9e15a2",
-			"size": 1859252253,
-			"version": "11.0",
-			"buildtype": "BETA",
-			"forum": "https://xdaforums.com/t/rom-15-raphael-crdroid-v11-0-beta-official-31-10-24.4700716/",
-			"gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/raphael/11.x/recovery/",
-			"paypal": "https://www.paypal.me/firebird11",
-			"telegram": "https://t.me/crDroid_Xiaomi_MI9T_Pro",
-			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_raphael",
-			"common-dt": "",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8150/tree/15.0-raphael"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Hildo Boerboom (firebird11)",
+            "oem": "Redmi",
+            "device": "Mi 9T Pro",
+            "filename": "crDroidAndroid-15.0-20250128-raphael-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/raphael/11.x/crDroidAndroid-15.0-20250128-raphael-v11.1.zip/download",
+            "timestamp": 1738052119,
+            "md5": "a2ddfe7fdac384964fc37af7eaf78d77",
+            "sha256": "45bc084828dfca60c8aeeb31a366c7120bf411136e5fa1c74ae851756e2765ee",
+            "size": 1918065064,
+            "version": "11.1",
+            "buildtype": "STABLE",
+            "forum": "https://xdaforums.com/t/rom-15-raphael-crdroid-v11-0-beta-official-31-10-24.4700716/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/raphael/11.x/recovery/",
+            "paypal": "https://www.paypal.me/firebird11",
+            "telegram": "https://t.me/crDroid_Xiaomi_MI9T_Pro",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_raphael",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8150/tree/15.0-raphael"
+        }
+    ]
 }
