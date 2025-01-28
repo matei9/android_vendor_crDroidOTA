@@ -6,6 +6,12 @@ Device maintainer: Bobby Panarisi (xda:306bobby git:306bobby-android)
 Highlights & Device Specific Changes:
 =====================================
 
+===== 27th January, 2025 =====
+
+- Fixed WPA3 (speeds still slow, but it connects again!)
+- General ROM fixes and improvements
+
+
 ===== 20th January, 2025 =====
 
 - crDroid 11.1 (QPR1) Release
