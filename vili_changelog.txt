@@ -6,6 +6,12 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:29/01/2025
+- Source upstream
+- Remove direct flag for VOIP RX (Fixes the problem of WhatsApp, Telegram etc..)
+- dolby: Apply NLSound 4.1
+- Kernel upstream
+
 Changelog:22/01/2025
 - Source upstream
 
