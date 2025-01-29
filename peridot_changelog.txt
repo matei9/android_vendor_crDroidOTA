@@ -4,6 +4,204 @@ Device: Poco F6  (Peridot)
 Device maintainer: Vikas Yaduvanshi (Vikas_2_0)
 Required firmware: Android 14
 
+====================
+     01-29-2025
+====================
+
+-updated blobs to v10.12
+-updated kernel to v10.12
+- Added system ui restart option 
+- Added fast charging 
+- Switch to qti thermal hals
+- Switch to armv9-a ARCH variant for better performance 
+==============================
+     01-29-2025 Source changes 
+==============================
+
+   * frameworks/av
+7744b82ac8 Fix Integer Overflow in MPEG4Writer
+
+   * frameworks/base
+1cbb06dcb3d5 DNM: SystemUI: Add xiaomi fingerprintextension and touchfeature calls
+1a2854e13163 biometrics: virtualhal: Revert for mfp daemon to work
+
+   * packages/apps/Catapult
+93037f8 Catapult: Update notification layout
+9c39db2 Catapult: Fix dismissing some notifications
+c3ac79f Catapult: Skip home app dialog if system app
+
+   * packages/services/Telephony
+4833c9a28 Fix errorprone warnings
+
+====================
+     01-28-2025
+====================
+
+   * tools/extract-utils
+70997b4 extract_utils: fix rules for QDSP6 blobs
+
+   * vendor/certification
+8e70173 certification: update props to the latest lynx beta (#2)
+
+====================
+     01-27-2025
+====================
+
+   * android
+4b39f8d manifest: set depth 1 for clang 19.0.1 (#161)
+
+   * frameworks/base
+50f4f14858f4 SystemUI: Fixup cast chip long press when not showing a timer
+137b4854511d SystemUI: Allow long pressing timer chips to directly stop the action
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+49d1cfc ipanat: Remove test/Android.mk
+
+   * packages/apps/Glimpse
+7a8535c Glimpse: Lowercase cursor column names
+2fca29d Glimpse: Fix-up albums query
+945ac7e Glimpse: Use SharingStarted.Eagerly for ParsedIntent dependent flows
+5f912f2 Glimpse: Fix media loading for wildcard mime type in PickerActivity
+
+   * packages/apps/Settings
+4cbdf6d3223 Use default letter spacing for category titles
+c098d4d921e Settings: Improve udfps enroll introduction layout
+d5e4935c9c7 Settings: Use internal display brightness in overlay displays
+5803c06a49e Settings: Fixup fingerprint enroll finish layout
+ccc0ae18fba Settings: Retain udfps overlay shown state on restoring activity
+
+   * packages/apps/Twelve
+1d86b88 Twelve: Use library icon from design specifications
+96ce1b5 Twelve: Add play next and add to queue in AlbumFragment
+03e781f Twelve: AlbumViewModel: Cleanup code
+e3f69e7 Twelve: Fix playlist toolbar menu XML file name
+2d5f3a7 Twelve: Allow to reset local media playback stats from Settings
+ef70df1 Twelve: SubsonicDataSource: Suppress unchecked cast lint
+3a2be98 Twelve: Unify suppress lint labels
+6b31559 Twelve: Nicer media item bottom sheet dialog padding values
+3289cf3 Twelve: Get rid of media type prefix for media items
+06d6573 Twelve: Add `http://ip` example to malformed provider uri msg
+
+   * vendor/qcom/opensource/core-utils-vendor
+115dcd7 qspaframework: Convert to blueprint
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+59ed5d3 ipanat: Remove test/Android.mk
+
+   * vendor/qcom/opensource/dataservices
+b141057 datatop: Fix -Wstrict-prototypes errors
+53082e4 datatop: Convert to blueprint
+
+====================
+     01-26-2025
+====================
+
+   * android
+6085e1c manifest: update to new dependencies
+
+   * frameworks/base
+0f4a93dc6d78 Revert "SystemUI: Use colorAccentPrimary for monetized privacy indicators"
+288d16a231be frameworks/base: Import Xiaomi Image Tags defenitions
+7775e4920ad2 SystemUI: tuner: Enable enableOnBackInvokedCallback
+a109fb036a9e BatteryStatsViewer: Enable enableOnBackInvokedCallback
+
+   * frameworks/libs/systemui
+17768fb iconloaderlib: Update themed icons color palette
+
+   * packages/apps/Settings
+f3bae843b50 Move developer options to the most bottom part
+3e5c5ffa775 TopLevelSettings: Fix null pointer crash on high dpi devices
+f1eb65468d6 Revert "Fixup UI for Settings categories (#155)"
+f7b48198622 Revert "Fixup extras/parts/settings key injection"
+
+   * vendor/lineage
+eec07290 common: Build tensorflow lite jni
+9e0e4fe6 crdroid: Disable default frame rate limit for games
+
+====================
+     01-25-2025
+====================
+
+   * external/chromium-webview/prebuilt/arm
+14c6dd7 Update Chromium Webview arm prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/arm64
+4f52cbf Update Chromium Webview arm64 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86
+750817b Update Chromium Webview x86 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86_64
+9b01a3c Update Chromium Webview x86_64 prebuilt to 132.0.6834.122
+
+   * frameworks/base
+48bf84d1cca2 SystemUI: Fix burn-in translations not applying to keyguard slices
+5d02b8c732ef core: Expose method to toggle recent apps through Binder
+fdc99f8fa17c CarrierConfigManager: Enable inflate signal strength by default
+e7c4ad10dc99 base: Do not reset keyguard going away state - Fixes the flicker on turning off the screen when udfps is enabled
+c7950b1f9c2f Fix the potential memory leak issue caused by setExtension.
+
+   * hardware/lineage/compat
+85d5c13 Introduce libnativehelper shim
+
+   * packages/apps/Car/Settings
+a486d48a9 fixup! Hardcode default pattern size
+
+   * packages/apps/DocumentsUI
+bb42e18c3 Merge pull request #2 from tavukkdoner/15.0
+
+   * packages/apps/LMOFreeform
+516657d Merge pull request #1 from priiii08918/15.0
+
+   * packages/apps/Launcher3
+968a1c67e7 Launcher3: Update app drawer colors to match themed icons color palette
+68136d3e74 Launcher3: Set app drawer opacity to 100
+63ed425815 Launcher3: Remove all_apps_search_bar_content_overlap on tablets
+dea2bf2267 Launcher3: Improve persistent taskbar corner radius
+2e676c24eb Launcher3: Update lens intent in QSB
+
+   * vendor/addons
+5497bf5 addons: iconshapes: Set config_bottomDialogCornerRadius to 16dp
+
+====================
+     01-24-2025
+====================
+
+   * android
+4e1e1bb manifest: track sm8350 display HAL
+
+   * external/chromium-webview/patches
+8854626 Update Chromium Webview to 132.0.6834.122
+
+   * frameworks/av
+2cee83095f Audiopolicy : skipDelays in registerPolicyMixes
+
+   * frameworks/base
+6ce4cf496c4a SystemUI: Add switch for compact HUN [1/2]
+7cfcbd50ca3a SystemUI: Remove power menu shadow
+06ec345e6bd3 Persist music stream volume per user for Automotive
+7b60e1600737 Fix surfaceControl release exception
+
+   * lineage/scripts
+78bbda3 build-webview: Update default webview to 132.0.6834.122
+
+   * packages/apps/Dialer
+af1309854 New Crowdin updates (#141)
+
+   * packages/apps/Launcher3
+bc3cb89041 New Crowdin updates (#472)
+
+   * packages/apps/crDroidSettings
+a21f919 crdroid: Add switch for compact HUN [2/2]
+4b9d7e9 New Crowdin updates (#1214)
+
+   * tools/extract-utils
+a5549b0 extract_utils: fix printing of single path as multiple
+
+
+
+
+
 
 
 ====================
