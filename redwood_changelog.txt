@@ -3,6 +3,11 @@ Build type: Weekly
 Device: Redmi Note 12 Pro Speed/POCO X5 Pro 5G (redwood) 
 Device maintainer: priyanshu
 
+====== 31-01-2025 ======
+* Switched to power-libperfmgr 
+* Switched to Turbo kernel
+* Added ksu-next  and susfs support 
+* Enable usb debugging by default 
 
 ====== 21-01-2025 ======
 * QPR1 with January 2025 security patches
