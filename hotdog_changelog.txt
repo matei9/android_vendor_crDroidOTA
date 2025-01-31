@@ -3,6 +3,12 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250131 =====
+- Updated KernelSU to v1.0.3-4-legacy
+- Flashlight tile: Added brightness adjustment
+- Some other fixes
+- Updated translations
+
 ===== 20250126 =====
 - Updated KernelSU to v1.0.3-2-legacy
 - OPlusExtras moved to System menu
