@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "vullk4n",
-			"oem": "Motorola",
-			"device": "Moto Edge 20 Pro",
-			"filename": "crDroidAndroid-15.0-20241221-pstar-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/pstar/11.x/crDroidAndroid-15.0-20241221-pstar-v11.0.zip/download",
-			"timestamp": 1734745910,
-			"md5": "d3f0c3a547eadeea2d35f022c1663fc3",
-			"sha256": "bd20d6a4c1cda6e1817e334c78528e5fbf02c6db8275b07ccd04749074c21d9a",
-			"size": 1116919491,
-			"version": "11.0",
-			"buildtype": "Monthly",
-			"forum": "https://xdaforums.com/t/rom-official-15-0-moto-edge-20-pro-crdroid-11-beta-monthly-2024-12-15.4708062/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/pstar/11.x/generic-images/",
-			"paypal": "https://www.paypal.com/donate?business=EJKPLM3D6LT4W&no_recurring=0&item_name=buy+me+a+coffee&currency_code=USD",
-			"telegram": "https://t.me/crDroidAndroid",
-			"dt": "https://github.com/crdroidandroid/android_device_motorola_pstar",
-			"common-dt": "https://github.com/crdroidandroid/android_device_motorola_sm8250-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_motorola_sm8250"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "vullk4n",
+            "oem": "Motorola",
+            "device": "Moto Edge 20 Pro",
+            "filename": "crDroidAndroid-15.0-20250130-pstar-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/pstar/11.x/crDroidAndroid-15.0-20250130-pstar-v11.1.zip/download",
+            "timestamp": 1738258586,
+            "md5": "27bc3f4bceaf1f0d3cd0fb2c07fc9746",
+            "sha256": "7f9bb42966724efde4e7eccc6792932f40931d1b68e03385f6c76f3a15cf2a7b",
+            "size": 1124187910,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-official-15-0-moto-edge-20-pro-crdroid-11-beta-monthly-2024-12-15.4708062/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/pstar/11.x/generic-images/",
+            "paypal": "https://www.paypal.com/donate?business=EJKPLM3D6LT4W&no_recurring=0&item_name=buy+me+a+coffee&currency_code=USD",
+            "telegram": "https://t.me/crDroidAndroid",
+            "dt": "https://github.com/crdroidandroid/android_device_motorola_pstar",
+            "common-dt": "https://github.com/crdroidandroid/android_device_motorola_sm8250-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_motorola_sm8250"
+        }
+    ]
 }
