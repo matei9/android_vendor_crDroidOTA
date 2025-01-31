@@ -5,117 +5,353 @@ Device maintainer: Fuutao
 Required firmware: OS1.0.4.0.TGACNXM
 
 ====================
-     12-28-2024
-====================
-
-====================
-     12-27-2024
-====================
-
-   * packages/apps/SetupWizard
-6025212 SetupWizard: Add graphic for theme select page
-a716828 SetupWizard: Bring it on our side
-133ad8b SetupWizard: Use correct updater package
-ea891f1 Ship as crDroid based on LOS
-
-   * prebuilts/clang/host/linux-x86/clang-latest
-af6633c Update prebuilt Clang to r536225 (19.0.1).
-
-====================
-     12-26-2024
-====================
-
-   * device/xiaomi/sm8250-common
-75be74b sm8250-common: Move miuicamera to vendor tree
-
-   * vendor/xiaomi/sm8250-common
-68aa144 sm8250-common: Import MIUI Camera apk
-
-====================
-     12-25-2024
+     01-30-2025
 ====================
 
    * frameworks/base
-ba41231dc PixelPropsUtils: Update spoof for PUBG and Tencent Games (#1193)
+33ebd8b2e Flush output buffers when command is complete
+
+   * vendor/xiaomi/miuicamera-thyme
+5363285 MiuiCamera: Link libgui_shim_miuicamera to fix elf check for miuicamera blob
+c3d0c41 MiuiCamera: Build libgui_shim_miuicamera
+71f3ca3 MiuiCamera: alioth --> thyme
 
 ====================
-     12-24-2024
+     01-29-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+9c20ed74 legacy-um: vendor: Allow qtelephony to find vendor_hal_factory_aidlservice
+1d528849 legacy-um: Label and allow factoryservice its needs
+
+   * packages/apps/Launcher3
+bb88af1 Fix errorprone warnings
+
+====================
+     01-28-2025
 ====================
 
    * frameworks/av
-54ee674b Fix Integer Overflow in WebmWriter
+7744b82a Fix Integer Overflow in MPEG4Writer
 
-   * frameworks/base
-3500ac3f6 PackageWatchdog: fix the double close issue.
+   * packages/apps/Catapult
+93037f8 Catapult: Update notification layout
+9c39db2 Catapult: Fix dismissing some notifications
+c3ac79f Catapult: Skip home app dialog if system app
 
-   * vendor/certification
-36db017 certification: Update to latest lynx_beta (#1)
-
-====================
-     12-23-2024
-====================
-
-====================
-     12-22-2024
-====================
-
-   * external/chromium-webview/prebuilt/arm
-2b6b7b9 Update Chromium Webview arm prebuilt to 131.0.6778.200
-
-   * external/chromium-webview/prebuilt/arm64
-ade1035 Update Chromium Webview arm64 prebuilt to 131.0.6778.200
-
-   * external/chromium-webview/prebuilt/x86
-56aea9f Update Chromium Webview x86 prebuilt to 131.0.6778.200
-
-   * external/chromium-webview/prebuilt/x86_64
-f690caf Update Chromium Webview x86_64 prebuilt to 131.0.6778.200
-
-   * frameworks/base
-bceae0a7e New Crowdin updates (#1190)
-
-   * packages/apps/Launcher3
-dfc3d9b65 New Crowdin updates (#465)
-
-   * packages/apps/crDroidSettings
-f186a7c New Crowdin updates (#1208)
-
-====================
-     12-21-2024
-====================
-
-   * device/xiaomi/sm8250-common
-5616df1 sm8250-common: Don't force enable ims features Causes constant wakelocks with some networks that don't support VoLTE, as the modem continuously tries to register IMS.
-
-   * external/chromium-webview/patches
-b7fc13e Update Chromium Webview to 131.0.6778.200
-
-   * lineage/scripts
-6bdd316 build-webview: Update default webview to 131.0.6778.200
-
-====================
-     12-20-2024
-====================
-
-   * device/xiaomi/sm8250-common
-f7c4009 sm8250-common: Disable VoLTE for China Mobile users
-3ae83ae sm8250-common: Update CNE, QMI, RIL, IMS stack from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
-ca6e9d5 Revert "sm8250-common: Build xiaomi-telephony-stub"
-
-   * frameworks/base
-090207422 PowerStatsLogger: ensure the opend stream is closed when IOException happen.
+   * packages/services/Telephony
+4833c9a28 Fix errorprone warnings
 
    * vendor/xiaomi/sm8250-common
-7a0da8d sm8250-common: Update CNE, QMI, RIL, IMS stack from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
+7bd654e Revert "sm8250-common: Add MIUI Camera and Scanner Support"
 
 ====================
-     12-19-2024
+     01-27-2025
+====================
+
+   * packages/apps/Glimpse
+7a8535c Glimpse: Lowercase cursor column names
+2fca29d Glimpse: Fix-up albums query
+
+   * packages/apps/Twelve
+1d86b88 Twelve: Use library icon from design specifications
+96ce1b5 Twelve: Add play next and add to queue in AlbumFragment
+03e781f Twelve: AlbumViewModel: Cleanup code
+e3f69e7 Twelve: Fix playlist toolbar menu XML file name
+2d5f3a7 Twelve: Allow to reset local media playback stats from Settings
+ef70df1 Twelve: SubsonicDataSource: Suppress unchecked cast lint
+3a2be98 Twelve: Unify suppress lint labels
+6b31559 Twelve: Nicer media item bottom sheet dialog padding values
+3289cf3 Twelve: Get rid of media type prefix for media items
+
+   * tools/extract-utils
+70997b4 extract_utils: fix rules for QDSP6 blobs
+
+   * vendor/certification
+8e70173 certification: update props to the latest lynx beta (#2)
+
+====================
+     01-26-2025
+====================
+
+   * android
+4b39f8d manifest: set depth 1 for clang 19.0.1 (#161)
+
+   * device/xiaomi/sm8250-common
+c20b58e sm8250-common: FCM: Import MiSys entries From Miui Camera repo it's not picked on AOSP
+f5119d7 Revert "sm8250-common: Add MIUI Camera and Scanner Support"
+
+   * device/xiaomi/thyme
+1d2165a thyme: Add MIUI Camera and Scanner Support
+
+   * frameworks/base
+50f4f1485 SystemUI: Fixup cast chip long press when not showing a timer
+137b48545 SystemUI: Allow long pressing timer chips to directly stop the action
+0f4a93dc6 Revert "SystemUI: Use colorAccentPrimary for monetized privacy indicators"
+288d16a23 frameworks/base: Import Xiaomi Image Tags defenitions
+7775e4920 SystemUI: tuner: Enable enableOnBackInvokedCallback
+a109fb036 BatteryStatsViewer: Enable enableOnBackInvokedCallback
+
+   * frameworks/libs/systemui
+17768fb iconloaderlib: Update themed icons color palette
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+49d1cfc ipanat: Remove test/Android.mk
+
+   * hardware/xiaomi
+c51b9df dolby: Migrate MainSwitchBar and Switch to Material3
+184f50a dolby: Add custom profile
+1103d3b dolby: Add icons for dolby profiles
+989c6b4 dolby: Make bass enhancer available on speakers as well
+
+   * packages/apps/Glimpse
+945ac7e Glimpse: Use SharingStarted.Eagerly for ParsedIntent dependent flows
+5f912f2 Glimpse: Fix media loading for wildcard mime type in PickerActivity
+
+   * packages/apps/Settings
+4cbdf6d Use default letter spacing for category titles
+c098d4d Settings: Improve udfps enroll introduction layout
+d5e4935 Settings: Use internal display brightness in overlay displays
+5803c06 Settings: Fixup fingerprint enroll finish layout
+ccc0ae1 Settings: Retain udfps overlay shown state on restoring activity
+f3bae84 Move developer options to the most bottom part
+3e5c5ff TopLevelSettings: Fix null pointer crash on high dpi devices
+
+   * packages/apps/Twelve
+06d6573 Twelve: Add `http://ip` example to malformed provider uri msg
+
+   * vendor/lineage
+eec0729 common: Build tensorflow lite jni
+
+   * vendor/qcom/opensource/core-utils-vendor
+115dcd7 qspaframework: Convert to blueprint
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+59ed5d3 ipanat: Remove test/Android.mk
+
+   * vendor/qcom/opensource/dataservices
+b141057 datatop: Fix -Wstrict-prototypes errors
+53082e4 datatop: Convert to blueprint
+
+====================
+     01-25-2025
+====================
+
+   * android
+6085e1c manifest: update to new dependencies
+
+   * external/chromium-webview/prebuilt/arm
+14c6dd7 Update Chromium Webview arm prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/arm64
+4f52cbf Update Chromium Webview arm64 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86
+750817b Update Chromium Webview x86 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86_64
+9b01a3c Update Chromium Webview x86_64 prebuilt to 132.0.6834.122
+
+   * hardware/qcom-caf/common
+f7e3ba2 common: Enable master side content protection with soong
+
+   * packages/apps/Car/Settings
+a486d48a fixup! Hardcode default pattern size
+
+   * packages/apps/Launcher3
+968a1c6 Launcher3: Update app drawer colors to match themed icons color palette
+68136d3 Launcher3: Set app drawer opacity to 100
+63ed425 Launcher3: Remove all_apps_search_bar_content_overlap on tablets
+dea2bf2 Launcher3: Improve persistent taskbar corner radius
+2e676c2 Launcher3: Update lens intent in QSB
+
+   * packages/apps/Settings
+f1eb654 Revert "Fixup UI for Settings categories (#155)"
+f7b4819 Revert "Fixup extras/parts/settings key injection"
+
+   * vendor/addons
+5497bf50 addons: iconshapes: Set config_bottomDialogCornerRadius to 16dp
+
+   * vendor/lineage
+9e0e4fe crdroid: Disable default frame rate limit for games
+
+====================
+     01-24-2025
+====================
+
+   * external/chromium-webview/patches
+8854626 Update Chromium Webview to 132.0.6834.122
+
+   * frameworks/base
+48bf84d1c SystemUI: Fix burn-in translations not applying to keyguard slices
+5d02b8c73 core: Expose method to toggle recent apps through Binder
+fdc99f8fa CarrierConfigManager: Enable inflate signal strength by default
+e7c4ad10d base: Do not reset keyguard going away state - Fixes the flicker on turning off the screen when udfps is enabled
+c7950b1f9 Fix the potential memory leak issue caused by setExtension.
+
+   * hardware/lineage/compat
+85d5c13 Introduce libnativehelper shim
+
+   * lineage/scripts
+78bbda3 build-webview: Update default webview to 132.0.6834.122
+
+   * packages/apps/DocumentsUI
+bb42e18c Merge pull request #2 from tavukkdoner/15.0
+
+   * packages/apps/Etar
+6fa7ca7 Update dependencies
+46616b7 New version 1.0.48
+1d2063f Go back to default view instead of quitting
+cca1fb3 Update README.md
+d2402fe 6430-t-Clear_notification_after_event_ends
+c509b54 fixup! Etar: Add workaround for Notification trampoline
+beb8dbb Etar: Add workaround for Notification trampoline
+95c4aef Remove obsolete sdk version checks
+0718a92 Remove FOREGROUND_SERVICE_DATA_SYNC permission
+77e51bc remove unnecessary sdk version checks
+c0a947e dismiss alarm when event is opened via notification
+b77574b remove global dismiss manager
+886c3fc start event activity from notification instead trampolining via service
+
+   * packages/apps/LMOFreeform
+516657d Merge pull request #1 from priiii08918/15.0
+
+   * packages/apps/crDroidSettings
+a21f919 crdroid: Add switch for compact HUN [2/2]
+
+   * tools/extract-utils
+a5549b0 extract_utils: fix printing of single path as multiple
+
+====================
+     01-23-2025
+====================
+
+   * android
+4e1e1bb manifest: track sm8350 display HAL
+
+   * device/xiaomi/sm8250-common
+f433f3e sm8250-common: Build DSPVolumeSynchronizer
+
+   * device/xiaomi/thyme
+c767b46 Revert "thyme: Implement DSPVolumeSynchronizer"
+
+   * frameworks/av
+2cee8309 Audiopolicy : skipDelays in registerPolicyMixes
+
+   * frameworks/base
+6ce4cf496 SystemUI: Add switch for compact HUN [1/2]
+7cfcbd50c SystemUI: Remove power menu shadow
+06ec345e6 Persist music stream volume per user for Automotive
+7b60e1600 Fix surfaceControl release exception
+
+   * hardware/xiaomi
+34367cb Add Polish translation (#7)
+
+   * packages/apps/Dialer
+af130985 New Crowdin updates (#141)
+
+   * packages/apps/Launcher3
+bc3cb89 New Crowdin updates (#472)
+
+   * packages/apps/Twelve
+6442d14 Twelve: Fixup custom command calls
+cd4dd1b Twelve: Freeze some state flows
+c19abb1 Twelve: Don't state mediaStoreProviders
+
+   * packages/apps/crDroidSettings
+4b9d7e9 New Crowdin updates (#1214)
+
+   * packages/services/Telephony
+b595105c2 RadioInfo: Handle system insets
+
+====================
+     01-22-2025
 ====================
 
    * frameworks/base
-725839f27 ScreenRecordingCallbackController: fix NPE problem.
-337a96c1d FadeOutManager: the NPE problem due to add null value to SparseArray.
+24e714ba2 Ignore null action in NativeTombstoneManager.
+51116c219 Ignore null action in KeyChainSystemService.
+fae1c1609 Ignore null action in WebViewUpdateService.
+4eb5e7b02 Ignore null action in AudioService.
+a626b3dfa Ignore null action in ActivityManagerService.
+39fd0efe6 Ignore null action in AppBindingService.
+6386d89c6 Ignore null action in BinaryTransparencyService$PackageUpdatedReceiver
+825a50235 Ignore null action in VcnManagementService$VcnBroadcastReceiver
+b91bc3c6e Ignore null action in AppStateTrackerImpl.
+52f9d04cd Ignore null action in NotificationAttentionHelper.
+7737cd3ef Ignore null action in DeviceIdleController.
+f77175ee5 Ignore null action in BackgroundJobsController.
+2bbd84ed0 Ignore null action in AppWidgetServiceImpl.
+30ebe9938 Ignore null action in AlarmManagerService$UninstallReceiver.
+97efa16d3 Ignore null action in AppRestrictionController.
+ec6a4d308 Ignore null action in SliceManagerService.
+874075c71 Ignore null action in PackageManagerService.
+aded3dc74 SystemUI: Allow devices to disable 5G toggle
+
+   * hardware/lineage/interfaces
+96271f0 health: Change return type when we fail the sysfs read/write
+6656659 health: Don't loop through charging nodes if a custom one is set
+
+   * hardware/xiaomi
+18e3bcd DSPVolumeSynchronizer: Do not install for clone apps or private space
+acb3f81 Implement DSPVolumeSynchronizer
+92197fd dolby: Switch to MaterialTheme settingsBackground for EqualizerScreen background color
+df453da Revert "dolby: Fix Building in Andoid 15"
+
+   * packages/apps/Launcher3
+d178d58 fixup! Launcher3: Allow widgets to have 1 row as minimum size
+b65f44a fixup! Launcher3: Implement hidden & protected apps
+751dcb7 Revert "Launcher3: Hidden & Protected Apps: Make first app fully visible"
+1ad4456 fixup! Launcher3: Allow hiding top shadow on statusbar
+39d5a1b Launcher3: Keep clear-all button from being disabled
+c832a14 Launcher3: Fix upstream bug with dots enabled (#5167)
+1c81d8c Revert "Launcher3: Never add hotseat to visible elements for app state"
+fa235a2 Launcher3: Fix taskbar crash when disabled on fold devices
+83b5ef2 Launcher3: Hide app search results of profiles in quiet mode
+5c8c48e Launcher3: QsbContainerView: Allow configurable widgets
+1361b3e Launcher3: Do not leak preference change listener
+af03b46 Launcher3: Fix race condition when performing settings toggle restart
+
+   * packages/apps/Twelve
+1a20f00 Twelve: Don't stop visualizer if it never started
+976d08f Twelve: Fix unlucky progress slider out-of-range values
+6407263 Twelve: Remove some useless overloads and better providers manager code
+123b719 Twelve: Reformat code
+2966626 Twelve: Remember chosen provider
+93c79c0 Twelve: Add media item dialog shortcut in now playing fragment
+db8f797 Twelve: Smarter thumbnail management
+0b2f5f8 Twelve: Add shuffle play
+fa70c24 Twelve: Redo progress slider animators
+
+====================
+     01-21-2025
+====================
+
+   * build/make
+3e10eb2b fixup! Install adb_keys into recovery
+
+   * frameworks/base
+ee6b504d6 Ignore null action in AudioService.
+3ea2f05a2 Fix FD leaks in BootReceiver.
+5802968bc Ignore null action in GpuService.
+fe6eca4d0 MobileDataStatsPuller: add rate limit before post msg to handler
+
+   * packages/apps/Jelly
+f144ca5 Jelly: Use ColorUtils#calculateLuminance() to detect light color
+b3c55e3 Jelly: handle PermissionRequest (RESOURCE_PROTECTED_MEDIA_ID)
+2ca24f8 Jelly: handle PermissionRequest (RESOURCE_VIDEO_CAPTURE and RESOURCE_AUDIO_CAPTURE)
+9b94843 Jelly: PWA basic support
 
    * packages/apps/Settings
-776444b Fix the NPE in the tryToFetchUsageData() method
+00e6a54 Fix memory leak on wifi
+
+   * packages/apps/Twelve
+2611970 Twelve: Stop using BitmapFactory
+74c9f14 Twelve: NowPlayingViewModel: Fix audio initial value
+cac10ea Twelve: NowPlayingFragment: Use the correct URI for audio actions
+
+   * packages/services/Telephony
+90de4f239 Telephony: Move from Switch to MaterialSwitch
+b77ae4211 Telephony: Migrate MainSwitchBar and Switch to Material3
+8e9fb900a Telephony: Apply Material You to exposed settings
 

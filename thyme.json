@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Fuutao",
-			"oem": "Xiaomi",
-			"device": "Mi 10S",
-			"filename": "crDroidAndroid-15.0-20241228-thyme-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/thyme/11.x/crDroidAndroid-15.0-20241228-thyme-v11.0.zip/download",
-			"timestamp": 1735386508,
-			"md5": "ed2cf5c204719b0f587dc9e411d5e4d0",
-			"sha256": "6536468be47a59dfdc33dd249728498c3ef67240098ae23d70533000682b926b",
-			"size": 1867775412,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/rom-android-15-mi-10s-crdroid-v11-official.4708079",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "https://xmfirmwareupdater.com/firmware/thyme/stable/OS1.0.4.0.TGACNXM",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/recovery-for-xiaomi-devices/files/thyme",
-			"paypal": "",
-			"telegram": "https://t.me/Thyme_Chat",
-			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_thyme/tree/15.0",
-			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8250-common/tree/15.0-thyme",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_thyme/tree/15.0"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Fuutao",
+            "oem": "Xiaomi",
+            "device": "Mi 10S",
+            "filename": "crDroidAndroid-15.0-20250130-thyme-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/thyme/11.x/crDroidAndroid-15.0-20250130-thyme-v11.1.zip/download",
+            "timestamp": 1738251372,
+            "md5": "ee6ea601a6317385c16d04eabd4b14d9",
+            "sha256": "c4a13057c37b89be7fbad6e8e2b30ea2e7d3dbf29c72d0b888546479bc89a02b",
+            "size": 1955101188,
+            "version": "11.1",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-android-15-mi-10s-crdroid-v11-official.4708079",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "https://xmfirmwareupdater.com/firmware/thyme/stable/OS1.0.4.0.TGACNXM",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/thyme/11.x/recovery",
+            "paypal": "",
+            "telegram": "https://t.me/Thyme_Chat",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_thyme/tree/15.0",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8250-common/tree/15.0-thyme",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_thyme/tree/15.0"
+        }
+    ]
 }
