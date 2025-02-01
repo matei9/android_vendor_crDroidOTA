@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "",
+            "oem": "",
+            "device": "",
+            "filename": "crDroidAndroid-15.0-20250201-a52q-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/a52q/11.x/crDroidAndroid-15.0-20250201-a52q-v11.1.zip/download",
+            "timestamp": 1738430902,
+            "md5": "ba00abd3c14cd326fcd71a885c2dfed7",
+            "sha256": "a5c20b5eb8ddae364bb8cbcd4e040f025c03bd0e0e28d01386f7eca11e94df50",
+            "size": 1464115241,
+            "version": "11.1",
+            "buildtype": "",
+            "forum": "",
+            "gapps": "",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "",
+            "dt": "",
+            "common-dt": "",
+            "kernel": ""
+        }
+    ]
+}

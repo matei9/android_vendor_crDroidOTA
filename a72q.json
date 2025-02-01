@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "",
+            "oem": "",
+            "device": "",
+            "filename": "crDroidAndroid-15.0-20250201-a72q-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/a72q/11.x/crDroidAndroid-15.0-20250201-a72q-v11.1.zip/download",
+            "timestamp": 1738434528,
+            "md5": "e88d1102ac8be3311f4583f67b5e9f62",
+            "sha256": "614b793f2ff5843e6184c04f487e461acf346140eff65ad298885f27cd60f662",
+            "size": 1462688737,
+            "version": "11.1",
+            "buildtype": "",
+            "forum": "",
+            "gapps": "",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "",
+            "dt": "",
+            "common-dt": "",
+            "kernel": ""
+        }
+    ]
+}
