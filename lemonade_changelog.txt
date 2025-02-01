@@ -3,6 +3,15 @@ Build type: Weekly
 Device: OnePlus 9 (lemonade)
 Device maintainer: Lup Gabriel (gwolfu)
 
+===== 1 February, 2025 =====
+
+- Updated KernelSU to v1.0.3-4-legacy
+- Certification: update props to the latest lynx beta
+- DeskClock: Fix angles in dynamic icon
+- Updated themed icons
+- Updated Twelve, Glimpse and Catapult
+- Updated translations
+
 ===== 26 January, 2025 =====
 
 - Updated KernelSU to v1.0.3-2-legacy
