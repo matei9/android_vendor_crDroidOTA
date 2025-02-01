@@ -6,6 +6,10 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:01/02/2025
+- Source upstream
+- Move to Xiaomi IR AIDL
+
 Changelog:29/01/2025
 - Source upstream
 - Remove direct flag for VOIP RX (Fixes the problem of WhatsApp, Telegram etc..)
