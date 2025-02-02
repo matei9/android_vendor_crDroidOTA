@@ -1,2 +1,350 @@
->> 25/01/31 <<
-- Initial release
+====================
+     02-01-2025
+====================
+
+   * android
+47b94e0 Merge 'lineage-22.1' into 15.0
+
+   * device/xiaomi/sm8350-common
+4d193a0 sm8350-common: Add crdroid dependencies
+
+   * frameworks/base
+200175e3d SystemUI: Fix slider tile layout issue on A11 QS style
+
+   * packages/apps/Dialer
+5ad8ecef New translations (#143)
+
+   * packages/apps/Launcher3
+884939f New Crowdin updates (#477)
+
+   * packages/apps/crDroidSettings
+ab3bf3b New Crowdin updates (#1218)
+
+   * vendor/lineage
+ec161a0 soong: Make mkdir install dir optional
+
+====================
+     01-31-2025
+====================
+
+   * device/xiaomi/mars
+0f5be40 mars: Add crdroid.dependencies
+
+   * frameworks/av
+7bf00c34 CameraProviderExtension: add enabled bool and always set torch
+c5b6abd4 CameraProviderExtension: Use weak linkage for default implementations
+de4be113 CameraProviderExtension: Inject strength in fixupTorchStrengthTags
+5233b087 CameraProviderExtension: Reset strength level on torch off
+1e1edf40 CameraProviderExtension: Update mTorchStrengthLevel with new level
+fb2e13bd CameraProviderExtension: Return BAD_VALUE for invalid strength level
+41b55d50 camera: Add extension to control torch light strength
+
+   * frameworks/base
+78afdc1ea AllowDelayedLocking as long as run-in-bg allowed
+5ec8fbc68 FlashlightStrengthTile: Do NOT leak CameraManager TorchCallback
+c5ace6f7e SystemUI: Introduce Flashlight Strength Tile
+
+   * kernel/xiaomi/sm8350
+8252226d3 arm64: dts: star: Mask as mars to fix audio issues
+073aaa1e8 arm64: dts: star: Disable rear display
+
+   * packages/apps/DeskClock
+01228be DeskClock: Fix angles in dynamic icon
+
+   * vendor/lineage
+72fbaca soong: Add libcameraservice extension config
+
+====================
+     01-30-2025
+====================
+
+   * device/xiaomi/mars
+9d89d5d mars: Updated from star OS1.0.9.0.UKAMIXM
+fbae54a mars: overlay: Update pixel pitch
+480dd52 mars: Drop `core_64_bit` & `full_base_telephony` inclusions
+40e1161 mars: Remove unused Android.mk
+072c324 mars: Move to Xiaomi fingerprint AIDL
+eb8d309 mars: Adjust override prop key names
+
+   * frameworks/base
+33ebd8b2e Flush output buffers when command is complete
+
+   * vendor/qcom/opensource/commonsys/fm
+249783d FM: Add qcom.fmradio to required[]
+
+   * vendor/xiaomi/mars
+c79d853 mars: Updated from star OS1.0.9.0.UKAMIXM
+
+====================
+     01-29-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+9c20ed74 legacy-um: vendor: Allow qtelephony to find vendor_hal_factory_aidlservice
+1d528849 legacy-um: Label and allow factoryservice its needs
+
+   * packages/apps/Launcher3
+bb88af1 Fix errorprone warnings
+
+====================
+     01-28-2025
+====================
+
+   * device/xiaomi/mars
+d8b1c32 mars: Migrate to py extract utils
+
+   * frameworks/av
+7744b82a Fix Integer Overflow in MPEG4Writer
+
+   * packages/apps/Catapult
+93037f8 Catapult: Update notification layout
+9c39db2 Catapult: Fix dismissing some notifications
+c3ac79f Catapult: Skip home app dialog if system app
+
+   * packages/services/Telephony
+4833c9a28 Fix errorprone warnings
+
+====================
+     01-27-2025
+====================
+
+   * packages/apps/Glimpse
+7a8535c Glimpse: Lowercase cursor column names
+2fca29d Glimpse: Fix-up albums query
+
+   * packages/apps/Twelve
+1d86b88 Twelve: Use library icon from design specifications
+96ce1b5 Twelve: Add play next and add to queue in AlbumFragment
+03e781f Twelve: AlbumViewModel: Cleanup code
+e3f69e7 Twelve: Fix playlist toolbar menu XML file name
+2d5f3a7 Twelve: Allow to reset local media playback stats from Settings
+ef70df1 Twelve: SubsonicDataSource: Suppress unchecked cast lint
+3a2be98 Twelve: Unify suppress lint labels
+6b31559 Twelve: Nicer media item bottom sheet dialog padding values
+3289cf3 Twelve: Get rid of media type prefix for media items
+06d6573 Twelve: Add `http://ip` example to malformed provider uri msg
+
+   * tools/extract-utils
+70997b4 extract_utils: fix rules for QDSP6 blobs
+
+   * vendor/certification
+8e70173 certification: update props to the latest lynx beta (#2)
+
+====================
+     01-26-2025
+====================
+
+   * android
+4b39f8d manifest: set depth 1 for clang 19.0.1 (#161)
+83c2066 manifest: Track sm8450 audioreach-graphservices
+
+   * frameworks/base
+50f4f1485 SystemUI: Fixup cast chip long press when not showing a timer
+137b48545 SystemUI: Allow long pressing timer chips to directly stop the action
+0f4a93dc6 Revert "SystemUI: Use colorAccentPrimary for monetized privacy indicators"
+288d16a23 frameworks/base: Import Xiaomi Image Tags defenitions
+7775e4920 SystemUI: tuner: Enable enableOnBackInvokedCallback
+a109fb036 BatteryStatsViewer: Enable enableOnBackInvokedCallback
+
+   * frameworks/libs/systemui
+17768fb iconloaderlib: Update themed icons color palette
+
+   * hardware/qcom-caf/sm8450/audio/graphservices
+d2201b4 Add missing speaker protection ch_enable VI and RX structs and constants
+f0a5e6b Rename speaker protection VI struct members to match usage
+235c1cf ar_osal: Use /dev/msm_audio_ion since /dev/msm_audio_mem does not exist
+c293fa0 Allow usage without PD notifiers
+d8d93c3 Remove usage of comdef.h
+a860cbc Disable usage of libdiag
+92aa476 Include errno.h
+c92f6e6 Fix incompatible-pointer-types-discards-qualifiers error
+2af7a77 Ignore address-of-packed-member errors
+6df67d1 Add missing libarosal_headers dependencies
+b4f2612 Disable 32 bit variants of audio libraries for 64 bit audio targets
+
+   * hardware/qcom-caf/sm8450/audio/pal
+1fdf5fea libar-pal: Allow overriding speaker protection calibration path
+174f3329 Include generated kernel headers for adsp_sleepmon.h
+6090cdbf Fix format specifiers
+b445a617 Add missing sampling rates
+1ae90fb1 Add capi_v2.h from AudioReach
+f359e060 Add kvh2xml.h from AudioReach
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+49d1cfc ipanat: Remove test/Android.mk
+
+   * packages/apps/Glimpse
+945ac7e Glimpse: Use SharingStarted.Eagerly for ParsedIntent dependent flows
+5f912f2 Glimpse: Fix media loading for wildcard mime type in PickerActivity
+
+   * packages/apps/Settings
+4cbdf6d Use default letter spacing for category titles
+c098d4d Settings: Improve udfps enroll introduction layout
+d5e4935 Settings: Use internal display brightness in overlay displays
+5803c06 Settings: Fixup fingerprint enroll finish layout
+ccc0ae1 Settings: Retain udfps overlay shown state on restoring activity
+f3bae84 Move developer options to the most bottom part
+3e5c5ff TopLevelSettings: Fix null pointer crash on high dpi devices
+
+   * vendor/addons
+06c1dbe1 addons: Update themed icons
+
+   * vendor/lineage
+eec0729 common: Build tensorflow lite jni
+
+   * vendor/qcom/opensource/core-utils-vendor
+115dcd7 qspaframework: Convert to blueprint
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+59ed5d3 ipanat: Remove test/Android.mk
+
+   * vendor/qcom/opensource/dataservices
+b141057 datatop: Fix -Wstrict-prototypes errors
+53082e4 datatop: Convert to blueprint
+
+====================
+     01-25-2025
+====================
+
+   * android
+6085e1c manifest: update to new dependencies
+
+   * external/chromium-webview/prebuilt/arm
+14c6dd7 Update Chromium Webview arm prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/arm64
+4f52cbf Update Chromium Webview arm64 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86
+750817b Update Chromium Webview x86 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86_64
+9b01a3c Update Chromium Webview x86_64 prebuilt to 132.0.6834.122
+
+   * hardware/lineage/compat
+85d5c13 Introduce libnativehelper shim
+
+   * hardware/qcom-caf/common
+f7e3ba2 common: Enable master side content protection with soong
+
+   * hardware/qcom-caf/sm8450/audio/agm
+4762da7 Fix format specifiers
+bf27f36 Ignore incompatible-pointer-types and pointer-integer-compare errors
+6afb1e5 Disable 32 bit variants for 64 bit audio
+
+   * hardware/qcom-caf/sm8450/audio/pal
+85ffa1ad Add missing libarosal_headers dependencies
+4965935f Disable 32 bit variant of libar-pal for 64 bit audio
+04299e8e Guard mic occlusion events
+aa3786f0 Guard setting of voice calibration key values
+c9511285 Revert "pal: skip libar-pal on OSS builds"
+689b3cdd Reapply "QAL: Change in location of kvh2xml.h"
+
+   * packages/apps/Car/Settings
+a486d48a fixup! Hardcode default pattern size
+
+   * packages/apps/DocumentsUI
+bb42e18c Merge pull request #2 from tavukkdoner/15.0
+
+   * packages/apps/Etar
+6fa7ca7 Update dependencies
+46616b7 New version 1.0.48
+1d2063f Go back to default view instead of quitting
+cca1fb3 Update README.md
+d2402fe 6430-t-Clear_notification_after_event_ends
+c509b54 fixup! Etar: Add workaround for Notification trampoline
+beb8dbb Etar: Add workaround for Notification trampoline
+95c4aef Remove obsolete sdk version checks
+0718a92 Remove FOREGROUND_SERVICE_DATA_SYNC permission
+77e51bc remove unnecessary sdk version checks
+c0a947e dismiss alarm when event is opened via notification
+b77574b remove global dismiss manager
+886c3fc start event activity from notification instead trampolining via service
+
+   * packages/apps/LMOFreeform
+516657d Merge pull request #1 from priiii08918/15.0
+
+   * packages/apps/Launcher3
+968a1c6 Launcher3: Update app drawer colors to match themed icons color palette
+68136d3 Launcher3: Set app drawer opacity to 100
+63ed425 Launcher3: Remove all_apps_search_bar_content_overlap on tablets
+dea2bf2 Launcher3: Improve persistent taskbar corner radius
+2e676c2 Launcher3: Update lens intent in QSB
+
+   * packages/apps/Settings
+f1eb654 Revert "Fixup UI for Settings categories (#155)"
+f7b4819 Revert "Fixup extras/parts/settings key injection"
+
+   * vendor/addons
+5497bf50 addons: iconshapes: Set config_bottomDialogCornerRadius to 16dp
+
+   * vendor/lineage
+9e0e4fe crdroid: Disable default frame rate limit for games
+
+====================
+     01-24-2025
+====================
+
+   * android
+4e1e1bb manifest: track sm8350 display HAL
+
+   * external/chromium-webview/patches
+8854626 Update Chromium Webview to 132.0.6834.122
+
+   * frameworks/base
+48bf84d1c SystemUI: Fix burn-in translations not applying to keyguard slices
+5d02b8c73 core: Expose method to toggle recent apps through Binder
+fdc99f8fa CarrierConfigManager: Enable inflate signal strength by default
+e7c4ad10d base: Do not reset keyguard going away state - Fixes the flicker on turning off the screen when udfps is enabled
+c7950b1f9 Fix the potential memory leak issue caused by setExtension.
+6ce4cf496 SystemUI: Add switch for compact HUN [1/2]
+7cfcbd50c SystemUI: Remove power menu shadow
+
+   * hardware/qcom-caf/sm8450/audio/agm
+db92248 Revert "AGMIPC@1.0-impl/libagm: exclude from OSS builds"
+67a46c3 Revert "agm: Infer ar error codes from utils"
+
+   * hardware/qcom-caf/sm8450/audio/pal
+a1f32378 Revert "Remove kvh2xml.h imports"
+875a0a53 Revert "kvh2xml: add additional needed tags for post_proc effects"
+a9c19570 Revert "pal: plugins: disable on OSS builds due to missing headers"
+39a93077 Revert "pal: Update kvh2xml for current branch"
+
+   * lineage/scripts
+78bbda3 build-webview: Update default webview to 132.0.6834.122
+
+   * packages/apps/crDroidSettings
+a21f919 crdroid: Add switch for compact HUN [2/2]
+
+   * tools/extract-utils
+a5549b0 extract_utils: fix printing of single path as multiple
+
+====================
+     01-23-2025
+====================
+
+   * frameworks/av
+2cee8309 Audiopolicy : skipDelays in registerPolicyMixes
+
+   * frameworks/base
+06ec345e6 Persist music stream volume per user for Automotive
+7b60e1600 Fix surfaceControl release exception
+
+   * packages/apps/Dialer
+af130985 New Crowdin updates (#141)
+
+   * packages/apps/Launcher3
+bc3cb89 New Crowdin updates (#472)
+
+   * packages/apps/Twelve
+6442d14 Twelve: Fixup custom command calls
+cd4dd1b Twelve: Freeze some state flows
+c19abb1 Twelve: Don't state mediaStoreProviders
+1a20f00 Twelve: Don't stop visualizer if it never started
+
+   * packages/apps/crDroidSettings
+4b9d7e9 New Crowdin updates (#1214)
+
+   * packages/services/Telephony
+b595105c2 RadioInfo: Handle system insets
+
