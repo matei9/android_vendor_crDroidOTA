@@ -17,7 +17,7 @@
             "firmware": "",
             "modem": "",
             "bootloader": "",
-            "recovery": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/a72q/11.x/recovery.tar/download",
             "paypal": "https://paypal.me/FilipCojocaru",
             "telegram": "https://t.me/testamic2",
             "dt": "https://github.com/crdroidandroid/android_device_samsung_a72q",
